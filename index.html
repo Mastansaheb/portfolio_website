@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio webpage</title>
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="stylesheet" href ="index.css">
+</head>
+<body>
+  <div class="f">
+    <div class="t"><h1>portfolio</h1></div>
+    <div  class ="e"><h3>Home</h3></div>
+    <div class="u"><h3>Project</h3></div>
+    <div class="m"><h3>Certificates</h3></div>
+    <div class ="n"><h3>Contact</h3></div>
+     </div>
+     <br>
+<div class="j">
+  <table border="0" height="10" style="width:100%" cellspacing="0">
+    <tr>
+      <td ><h2>Mastan Saheb</h2>
+      <h4> ECE Student</h4>
+      <br>
+      <h5>I'm Intrested in Web Development.</h5>
+      </td>
+      <td><img src="mastan pict.png" height="400" width="400" align="right" cellpading="50" ></td>
+    </tr>
+  </table>
+  <div class="l"><button  id ="playButton" class="favorite styled"><a href="Resume.jpg" id = link9>View Resume</a></button></div>
+  <br>
+  <br>
+  <hr>
+  <br>
+  <div>
+    <h8>Projects</h8>
+    <br>
+    <br>
+    <br>
+    <h9>clone of netflix homepage</h9>
+    <p>Created a clone of Netflix homepage only using html and CSS.</p>
+    <button  class="favorite styled" ><h10  ><a href="#" id="link">View Project</a></h10></button>
+    <br>
+    <br>
+    <br>
+    <h9>Temperature converter</h9>
+    <p>Temperature is converted from celsius to fahrenhiet & kelvin</p>
+    <button  class="favorite styled"  ><h10><a href="https://mastansaheb.github.io/Temperature_converter/" id="link1">View Project</a></h10></button>
+    <br>
+    <br>
+    <br>
+    <h9>Content-management-tool</h9>
+    <p>A content management tool is an application that is used to manage content, allowing multiple contributors to create, edit and publish.</p>
+    <button class="favorite styled"  ><h10><a href="https://mastansaheb.github.io/Tools/" id="link2">View Project</a></h10></button>
+    <br><br><br>
+    <h9>Video-Conferencing</h9>
+    <p>Video conferencing is live, visual connection between two or more remote parties over the internet that simulates a face-to-face meeting.</p>
+    <button class="favorite styled" ><h10><a href="https://mastansaheb.github.io/Conference/" id="link3">View Project</a></h10></button>
+  </div>
+  <hr>
+  <br>
+  <div>
+    <h8>Certificates</h8>
+    <br>
+    <br>
+    <br>
+    <h9>Certificate of AI-ML Virtual Internship(AWS)</h9>
+    <p>July 2023</p>
+    <button class="favorite styled"  ><h10><a href="Certificate of Virtual Internship.pdf" id="link4">View Certificate</a></h10></button>
+    <br>
+    <br>
+    <br>
+    <h9>Certificate for completing training program on Java(Data Flair)</h9>
+    <p>August 14,2023</p>
+    <button class="favorite styled"  ><h10><a href="MASTAN-SAHEB-SHAIK-Free-Java-Certification-Course-Java-Certificate-DataFlair.pdf" id="link5">View Certificate</a></h10></button>
+    <br>
+    <br>
+    <br>
+    <h9>Certificate for completing training program on python(Code chef)</h9>
+    <p>July 17-29th,2023</p>
+    <button class="favorite styled" ><h10><a href="codechef.pdf" id="link6">View Certificate</a></h10></button>
+    <br><br><br>
+    <h9>Certificates for completing courses Digital Productivity,Employability Skills,Financial Literacy(Edu skills)</h9>
+    <p>Aug 21-sep 1,2023</p>
+    <button class="favorite styled"  ><h10><a href="courses.pdf" id="link7">View Certificates</a></h10></button>
+    <br>
+    <br>
+    <br>
+    <h9>Certificate for completing training program on DBMS(Great Learning)</h9>
+    <p>July,2023</p>
+    <button class="favorite styled"  ><h10><a href="great.pdf" id="link8">View Certificate</a></h10></button>
+  </div>
+  <hr>
+  <br>
+  <br>
+  <div class="con">
+    <div id="cont"><h8>Contact</h8></div>
+    <br><br><br><br>
+    <form action="">
+    <label for="name"><h11>Full Name:</h11></label>
+    <br><br>
+    <input type="text" size="95" class="box" placeholder="Enter your name" id="name"></input>
+    <br><br>
+    <label for="email"><h11>Email:</h11></label>
+    <br><br>
+    <input type="text" size="95" class="box" placeholder="Enter your email address" id="email"></input>
+    <br><br>
+    <label for="number"><h11>Phone Number:</h11></label>
+    <br><br>
+    <input type="text" size="95" class="box" placeholder="Enter your mobile number" id="number"></input>
+    <br><br>
+    <label for="message"><h11>Comments/Message:</h11></label>
+    <br><br>
+    <textarea rows="6" cols="97" placeholder="Enter message" id="message"></textarea>
+    <br><br>
+    <input type="submit" value="Submit" id="sub">
+    <br><br>
+    </form>
+  </div>
+</div>
+<br>
+<audio id="audio1" src="click.wav"></audio>
+
+<audio id="audio2" src="click.wav"></audio>
+<audio id="audio3" src="click.wav"></audio>
+<audio id="audio4" src="click.wav"></audio>
+<audio id="audio5" src="click.wav"></audio>
+<audio id="audio6" src="click.wav"></audio>
+<audio id="audio7" src="click.wav"></audio>
+<audio id="audio8" src="click.wav"></audio>
+<audio id="audio9" src="click.wav"></audio>
+<audio id="audio10" src="click.wav"></audio>
+
+
+
+<script>
+  const link = document.getElementById('link');
+  const audio10 = document.getElementById('audio10')
+  link.addEventListener('click',function(event){
+    audio10.play();
+    setTimeout(function(){
+      window.location.href = 'https://mastansaheb.github.io/Netflix/';
+    },800);
+    event.preventDefault();
+  });
+  const link1 = document.getElementById('link1');
+  const audio1 = document.getElementById('audio1')
+  link1.addEventListener('click',function(event){
+    audio10.play();
+    setTimeout(function(){
+      window.location.href = 'https://mastansaheb.github.io/Temperature_converter/';
+    },800);
+    event.preventDefault();
+  });
+  const link2 = document.getElementById('link2');
+  const audio2 = document.getElementById('audio2')
+  link2.addEventListener('click',function(event){
+    audio2.play();
+    setTimeout(function(){
+      window.location.href = 'https://mastansaheb.github.io/Tools/';
+    },800);
+    event.preventDefault();
+  });
+  const link3 = document.getElementById('link3');
+  const audio3 = document.getElementById('audio3')
+  link3.addEventListener('click',function(event){
+    audio3.play();
+    setTimeout(function(){
+      window.location.href = 'https://mastansaheb.github.io/Conference/';
+    },800);
+    event.preventDefault();
+  });
+  const link4 = document.getElementById('link4');
+  const audio4 = document.getElementById('audio4')
+  link4.addEventListener('click',function(event){
+    audio4.play();
+    setTimeout(function(){
+      window.location.href = 'Certificate of Virtual Internship.pdf';
+    },800);
+    event.preventDefault();
+  });
+  const link5 = document.getElementById('link5');
+  const audio5 = document.getElementById('audio5')
+  link5.addEventListener('click',function(event){
+    audio5.play();
+    setTimeout(function(){
+      window.location.href = 'MASTAN-SAHEB-SHAIK-Free-Java-Certification-Course-Java-Certificate-DataFlair.pdf';
+    },800);
+    event.preventDefault();
+  });
+  const link6 = document.getElementById('link6');
+  const audio6 = document.getElementById('audio6')
+  link6.addEventListener('click',function(event){
+    audio6.play();
+    setTimeout(function(){
+      window.location.href = 'codechef.pdf';
+    },800);
+    event.preventDefault();
+  });
+  const link7= document.getElementById('link7');
+  const audio7 = document.getElementById('audio7')
+  link7.addEventListener('click',function(event){
+    audio7.play();
+    setTimeout(function(){
+      window.location.href = 'courses.pdf';
+    },800);
+    event.preventDefault();
+  });
+  const link8 = document.getElementById('link8');
+  const audio8 = document.getElementById('audio8')
+  link8.addEventListener('click',function(event){
+    audio8.play();
+    setTimeout(function(){
+      window.location.href = 'great.pdf';
+    },800);
+    event.preventDefault();
+  });
+  const link9 = document.getElementById('link9');
+  const audio9 = document.getElementById('audio9')
+  link9.addEventListener('click',function(event){
+    audio9.play();
+    setTimeout(function(){
+      window.location.href = 'Resume.jpg';
+    },800);
+    event.preventDefault();
+  });
+</script>
+</body>
+</html>
